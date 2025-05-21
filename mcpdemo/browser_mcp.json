@@ -1,0 +1,39 @@
+{
+    "mcpServers": {
+      "playwright":
+       {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@playwright/mcp"
+        ]
+      },
+      "airbnb": 
+      {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@openbnb/mcp-server-airbnb"
+        ]
+      },
+      "duckduckgo-search": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "duckduckgo-mcp-server"
+        ]
+    },
+        "github": 
+        {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-github"
+          ],
+          "env": {
+            "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+          }
+        }
+      }
+} 
+    
